@@ -1,5 +1,5 @@
 class Solution:
-    def wordPattern(self, pattern: str, s: str) -> bool:
+    def wordPattern(self, pattern: str, s: str):
         # First uses s.split to split each words into list
         listOfWord = s.split()
         # Then create dictionaries for each letters and words to mapping

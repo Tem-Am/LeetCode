@@ -8,7 +8,7 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]):
         number1 = 0
         number2 = 0
         # Since linked list is reverse order, we multiple next number by 10 and add to main number

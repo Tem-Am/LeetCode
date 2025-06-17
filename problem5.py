@@ -3,7 +3,7 @@
 ####################
 
 ## My solution
-def longestPalindrome(self, s: str) -> str:
+def longestPalindrome(self, s: str):
     # Pc stands for possible combination from s 
         pc = len(s)
         answer = ''
