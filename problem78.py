@@ -18,6 +18,6 @@ class Solution:
                 backtrack(i+1, path)
                 # Backtrack
                 path.pop()
-        print(subsets, "why")
         backtrack(0, [])
-        
+        return subsets
+    
