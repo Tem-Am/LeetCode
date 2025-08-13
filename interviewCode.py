@@ -27,3 +27,12 @@ class Solution:
                 letter_dic[pattern[i]] = listOfWord[i]
             
         return True
+    
+    
+    
+for i in range(5):
+    t = set()
+    for j in range(5):
+        if j not in t:
+            t.add(j)
+    print(t)
