@@ -14,7 +14,7 @@ struct TreeNode {
  
 class Solution {
 public:
-    vector<vector<int>> levelOrder(TreeNode root) {
+    vector<vector<int>> levelOrder(TreeNode* root) {
         // Write queue and ans vector
         queue<TreeNode*> q;
         vector<vector<int>> ans;
