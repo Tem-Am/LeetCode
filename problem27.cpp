@@ -4,18 +4,15 @@ using namespace std;
 
 class Solution {
 public:
-    int removeDuplicates(vector<int>& nums) {
-        if(nums.size() == 0){
-            return 0;
-        }
-
-        int uniNum = 0;
-        for(int i = 1; i < nums.size(); i++){
-            if(nums[i] != nums[uniNum]){
-                uniNum++;
-                nums[uniNum] = nums[i];
+    int removeElement(vector<int>& nums, int val) {
+        // Case where no need to do any other steps
+        int k = 0;
+        for(int num : nums){
+            if(num != val){
+                nums[k] = num;
+                k++;
             }
         }
-        return uniNum+1;
+        return k;
     }
 };
